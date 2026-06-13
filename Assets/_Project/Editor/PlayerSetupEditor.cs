@@ -183,7 +183,7 @@ namespace KnightGame.EditorTools
 
         private static void CreateGroundIfNoneExists()
         {
-            Collider2D[] colliders = FindObjectsByType<Collider2D>(FindObjectsSortMode.None);
+            Collider2D[] colliders = FindObjectsByType<Collider2D>();
             bool hasGround = false;
             foreach (var col in colliders)
             {
