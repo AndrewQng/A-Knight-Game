@@ -41,6 +41,8 @@
 
 # Visual Studio cache directory
 .vs/
+.agents/
+docs/
 
 # Gradle cache directory
 .gradle/
